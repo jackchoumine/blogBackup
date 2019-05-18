@@ -9,7 +9,8 @@ description: 本站点用于学习记录，站内所有言论观点仅代表个�
 keywords: "前端,js,javasript,html5,css,es6,CSS3,webpack,http,程序员,programmer,开发者,deveploer,编程,代码,code,开源,个人网站,个人博客,github page"
 author: JackZhouMine
 email: jackzhoumine@gmail.com;jackzhou8848@qq.com
-language: zh
+# language: zh #yilia
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -77,6 +78,8 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 # theme: landscape
 theme: yilia
+# theme: bmw
+# theme: Yelee
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
