@@ -89,6 +89,13 @@ deploy:
     github: https://github.com/JackZhouMine/jackzhoumine.github.io
   branch: master
 
+#评论
+# Disqus 
+disqus:
+  enable: true
+  shortname: jackzhoumine.disqus.com    #your name
+  count: true
+
 jsonContent:
   meta: false
   pages: false
@@ -101,7 +108,7 @@ jsonContent:
     content: false
     slug: false
     updated: false
-    comments: false
+    comments: true
     link: false
     permalink: false
     excerpt: false

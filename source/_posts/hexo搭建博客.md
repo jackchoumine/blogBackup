@@ -122,3 +122,39 @@ hexo g -d # 部署到线上
 hexo new draft "文章标题" # 会在 /source/-drafts 里生成草稿
 hexo publish filename
 ```
+## 高级主题
+
+ 可以为博客增加评论功能，方便与他人交流。增加访客统计等。
+
+### 增加评论功能
+
+yilia 主题配置开启就可。
+疑问：为何disqus评论底部会显示其他博客的评论内容呢？
+
+### 增加访客统计
+
+使用不蒜子统计功能，免费好用。
+打开 `themes/yilia/layout/_partial/footer.ejs`，
+在id为`footer-info`的div后面增加以下内容：
+```ejs
+<div calss="count-span">
+      <span id="busuanzi_container_site_pv">
+        总访问量: <span id="busuanzi_value_site_pv"></span>|
+      </span>
+      <span id="busuanzi_container_site_uv">
+        总访客: <span id="busuanzi_value_site_uv"></span>
+      </span>
+</div>
+```
+在footer顶部增加统计脚本：
+```js
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+```
+部署即可看到效果了，可增加一些好看的样式。
+
+### 增加 stackoverflow 技术媒体
+
+yilia 主题没有引入 stackoverflow ,可执行增加。
+Acfun已经凉了，在 `themes\yilia\source\main.0cf68a.css`中搜索acfun，替换成stackoverflow，图标就不换了。
+
+
