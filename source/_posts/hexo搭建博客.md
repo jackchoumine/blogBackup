@@ -50,7 +50,7 @@ hexo s
 ```
 打开`http://localhost:4000`即可看到效果。
 
-![hexo默认主题](https://github.com/JackZhouMine/jack-picture/blob/master/hexo%E9%BB%98%E8%AE%A4%E4%B8%BB%E9%A2%98.png "hexo默认主题")
+![hexo默认主题](https://raw.githubusercontent.com/JackZhouMine/jack-picture/master/hexo%E9%BB%98%E8%AE%A4%E4%B8%BB%E9%A2%98.png "hexo默认主题")
 
 ## 创建托管博客的仓库
 
@@ -71,11 +71,11 @@ deploy:
 其他配置也可以修改，比如我将站点信息修改如下：
 ```bash
 # Site
-title: 周其军的个人博客
+title:jackzhoumine
 subtitle:
 description:
 keywords:
-author: 周其军
+author: jackzhoumine
 language:
 timezone:
 ```
@@ -90,7 +90,7 @@ hexo g -d
 ```
 打开我的主页链接 `https://jackzhoumine.github.io`，看到页面就部署成功了。
 
-![部署成功](https://github.com/JackZhouMine/jack-picture/blob/master/myblog.png "部署成功的页面")
+![部署成功](https://raw.githubusercontent.com/JackZhouMine/jack-picture/master/myblog1.png "部署成功的页面")
 
 ## 创建文章
 
@@ -122,6 +122,12 @@ hexo g -d # 部署到线上
 hexo new draft "文章标题" # 会在 /source/-drafts 里生成草稿
 hexo publish filename
 ```
+
+## 给 markdown 文章加入图片
+
+使用本地图片，markdown 笔记移动后，图片路径失效，免费的图床可能到倒闭，毕竟都是小公司。解决办法是将所有图片在一个git仓库里管理起来，托管在 github （没有巨硬这个财大气粗的土豪做后台，也倒不了）上，安全放心。
+需要用到图片时，打开图片，然后在代码块左上方点 `Download` 按钮，打开的新标签里只有图片了，复制地址栏图片链接，类似`https://raw.githubusercontent.com/xxxx`到文章里，就可放心饮用了。
+
 ## 高级主题
 
  可以为博客增加评论功能，方便与他人交流。增加访客统计等。
@@ -156,5 +162,3 @@ yilia 主题配置开启就可。
 
 yilia 主题没有引入 stackoverflow ,可执行增加。
 Acfun已经凉了，在 `themes\yilia\source\main.0cf68a.css`中搜索acfun，替换成stackoverflow，图标就不换了。
-
-
