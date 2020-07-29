@@ -7,7 +7,7 @@ tags: hexo
 <!--more-->
 ## 预备知识：
 
-- npm 命令；
+- npm 命令
 - git 命令
 - github 常见操作
 
@@ -50,7 +50,7 @@ hexo s
 ```
 打开`http://localhost:4000`即可看到效果。
 
-![hexo默认主题](https://raw.githubusercontent.com/JackZhouMine/jack-picture/master/hexo%E9%BB%98%E8%AE%A4%E4%B8%BB%E9%A2%98.png "hexo默认主题")
+![hexo默认主题](https://raw.githubusercontent.com/jackchoumine/jack-picture/master/hexo%E9%BB%98%E8%AE%A4%E4%B8%BB%E9%A2%98.png "hexo默认主题")
 
 ## 创建托管博客的仓库
 
@@ -65,17 +65,17 @@ hexo s
 deploy:
   type: git # 版本管理工具
   repo: # 仓库信息
-    github: https://github.com/JackZhouMine/jackzhoumine.github.io
+    github: https://github.com/jackchoumine/jackchoumine.github.io
   branch: master # 使用分支
 ```
 其他配置也可以修改，比如我将站点信息修改如下：
 ```bash
 # Site
-title:jackzhoumine
+title:jackchoumine
 subtitle:
 description:
 keywords:
-author: jackzhoumine
+author: jackchoumine
 language:
 timezone:
 ```
@@ -88,9 +88,9 @@ npm i -S hexo-deployer-git
 ```bash
 hexo g -d
 ```
-打开我的主页链接 `https://jackzhoumine.github.io`，看到页面就部署成功了。
+打开我的主页链接 `https://jackchoumine.github.io`，看到页面就部署成功了。
 
-![部署成功](https://raw.githubusercontent.com/JackZhouMine/jack-picture/master/myblog1.png "部署成功的页面")
+![部署成功](https://raw.githubusercontent.com/jackchoumine/jack-picture/master/myblog.png "部署成功的页面")
 
 ## 创建文章
 
@@ -169,4 +169,4 @@ Acfun已经凉了，在 `themes\yilia\source\main.0cf68a.css`中搜索acfun，�
 
 如有帮助，谢谢您请我喝可乐：
 
-<img src="https://raw.githubusercontent.com/JackZhouMine/jack-picture/master/alipay2.jpg"  title="支付宝扫一扫" width="50%" height="50%"><img src="https://raw.githubusercontent.com/JackZhouMine/jack-picture/master/weixin2.jpg"  title="微信扫一扫" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/jackchoumine/jack-picture/master/alipay2.jpg"  title="支付宝扫一扫" width="50%" height="50%"><img src="https://raw.githubusercontent.com/jackchoumine/jack-picture/master/weixin2.jpg"  title="微信扫一扫" width="50%" height="50%">

@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site 网站信息
-title: JackZhouMine
+title: JackChouMine
 subtitle: 学且思，罔而殆
 description: 本站点用于学习记录，主要集中在前端和node。
 # description: 本站点用于学习记录，站内所有言论观点仅代表个人立场，请斟酌使用，并注明出处。
 keywords: "前端,js,javasript,html5,css,es6,CSS3,webpack,http,程序员,programmer,开发者,deveploer,编程,代码,code,开源,个人网站,个人博客,github page"
-author: JackZhouMine
+author: JackChouMine
 email: jackzhoumine@gmail.com;jackzhou8848@qq.com
 # language: zh #yilia
 language: zh-Hans
@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://jackzhoumine.github.io
+url: http://jackchoumine.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -87,7 +87,7 @@ theme: yilia
 deploy:
   type: git
   repo:
-    github: https://github.com/JackZhouMine/jackzhoumine.github.io
+    github: https://github.com/jackchoumine/jackchoumine.github.io
   branch: master
 
 #评论
